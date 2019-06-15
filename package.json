@@ -1,5 +1,5 @@
 {
-    "name": "@atomicpages/prettier-config",
+    "name": "@djthoms/prettier-config",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -13,9 +13,6 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/atomicpages/prettier-config/issues"
-    },
     "homepage": "https://github.com/atomicpages/prettier-config#readme",
     "peerDependencies": {
         "prettier": "^1.0.0"
