@@ -3,6 +3,9 @@
     "version": "3.1.0",
     "description": "",
     "main": "index.js",
+    "files": [
+        "index.js"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -14,7 +17,8 @@
     "author": "Dennis Thompson",
     "license": "ISC",
     "homepage": "https://github.com/atomicpages/prettier-config#readme",
-    "peerDependencies": {
+    "dependencies": {
         "prettier": "^2.0.0"
-    }
+    },
+    "prettier": "./index.js"
 }

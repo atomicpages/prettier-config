@@ -1,4 +1,3 @@
-Prettier Config
-===============
+# Prettier Config
 
 My prettier preferences.
