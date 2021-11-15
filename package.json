@@ -1,24 +1,32 @@
 {
-    "name": "@djthoms/prettier-config",
-    "version": "3.2.0",
-    "description": "",
-    "main": "index.js",
-    "files": [
-        "index.js"
-    ],
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/atomicpages/prettier-config.git"
-    },
-    "keywords": [],
-    "author": "Dennis Thompson",
-    "license": "ISC",
-    "homepage": "https://github.com/atomicpages/prettier-config#readme",
-    "dependencies": {
-        "prettier": "^2.0.0"
-    },
-    "prettier": "./index.js"
+  "name": "@djthoms/prettier-config",
+  "version": "3.2.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomicpages/prettier-config.git"
+  },
+  "keywords": [],
+  "author": "Dennis Thompson",
+  "license": "ISC",
+  "homepage": "https://github.com/atomicpages/prettier-config#readme",
+  "dependencies": {
+    "prettier": "^2.0.0"
+  },
+  "prettier": "./index.js",
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lint-staged": "^12.0.0"
+  },
+  "lint-staged": {
+    "*.{js,md,yaml,yml,json}": "prettier --write"
+  }
 }
