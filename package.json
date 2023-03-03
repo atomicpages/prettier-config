@@ -2,37 +2,37 @@
   "name": "@djthoms/prettier-config",
   "version": "4.0.0",
   "description": "",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "prepare": "husky install"
-  },
+  "keywords": [],
+  "homepage": "https://github.com/atomicpages/prettier-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atomicpages/prettier-config.git"
   },
-  "keywords": [],
-  "author": "Dennis Thompson",
   "license": "ISC",
-  "homepage": "https://github.com/atomicpages/prettier-config#readme",
+  "author": "Dennis Thompson",
+  "main": ".prettierrc.js",
+  "files": [
+    ".prettierrc.js"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "lint-staged": {
+    "*.{js,md,yaml,yml,json}": "prettier --write"
+  },
+  "prettier": "./.prettierrc.js",
   "dependencies": {
     "prettier": "^2.0.0"
   },
-  "prettier": "./index.js",
   "devDependencies": {
-    "husky": "^8.0.0",
-    "lint-staged": "^13.0.0",
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
     "@djthoms/prettier-config": "^4.0.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0",
     "semantic-release": "^19.0.2"
-  },
-  "lint-staged": {
-    "*.{js,md,yaml,yml,json}": "prettier --write"
   }
 }
