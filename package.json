@@ -10,18 +10,15 @@
   },
   "license": "ISC",
   "author": "Dennis Thompson",
-  "main": ".prettierrc.js",
+  "main": ".prettierrc.cjs",
+  "module": ".prettierrc.mjs",
   "files": [
-    ".prettierrc.js"
+    ".prettierrc*"
   ],
   "scripts": {
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "lint-staged": {
-    "*.{js,md,yaml,yml,json}": "prettier --write"
-  },
-  "prettier": "./.prettierrc.js",
   "dependencies": {
     "prettier": "^3.0.0"
   },

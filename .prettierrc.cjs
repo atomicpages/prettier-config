@@ -1,6 +1,7 @@
+/** @type {import("prettier").Options} */
 module.exports = {
-  jsxBracketSameLine: true,
   tabWidth: 2,
   htmlWhitespaceSensitivity: "css",
+  bracketSameLine: true,
   proseWrap: "always",
 };
