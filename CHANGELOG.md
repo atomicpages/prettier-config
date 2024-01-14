@@ -1,3 +1,10 @@
+## [4.4.0](https://github.com/atomicpages/prettier-config/compare/v4.3.0...v4.4.0) (2024-01-14)
+
+
+### Features
+
+* bump prettier to 3.2.2 ([4759cd6](https://github.com/atomicpages/prettier-config/commit/4759cd6bd89878627f2d3854fc143681874bd79e))
+
 ## [4.3.0](https://github.com/atomicpages/prettier-config/compare/v4.2.0...v4.3.0) (2023-07-24)
 
 ### Features
