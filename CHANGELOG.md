@@ -1,3 +1,10 @@
+## [4.4.1](https://github.com/atomicpages/prettier-config/compare/v4.4.0...v4.4.1) (2024-03-30)
+
+
+### Bug Fixes
+
+* upgrade prettier ([080f26e](https://github.com/atomicpages/prettier-config/commit/080f26e5d3248c4f5a070b6daa0c5e4bbd2ca5d4))
+
 ## [4.4.0](https://github.com/atomicpages/prettier-config/compare/v4.3.0...v4.4.0) (2024-01-14)
 
 
