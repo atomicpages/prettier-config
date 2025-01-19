@@ -1,3 +1,10 @@
+## [4.5.0](https://github.com/atomicpages/prettier-config/compare/v4.4.1...v4.5.0) (2025-01-19)
+
+
+### Features
+
+* upgrade prettier to 3.4 ([862490f](https://github.com/atomicpages/prettier-config/commit/862490f2f5fb7e0e699f15cc29c1d4a72dc2293c))
+
 ## [4.4.1](https://github.com/atomicpages/prettier-config/compare/v4.4.0...v4.4.1) (2024-03-30)
 
 
